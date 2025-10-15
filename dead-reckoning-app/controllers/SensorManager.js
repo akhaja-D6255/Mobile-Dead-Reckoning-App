@@ -1,7 +1,7 @@
 // SensorManager.js
 import { Accelerometer, Gyroscope, Magnetometer } from "expo-sensors";
 import * as Location from "expo-location";
-import { db, collection, addDoc } from "./firebaseConfig"; // optional upload
+import { db, collection, addDoc } from "../firebaseConfig"; // optional upload
 
 const DEFAULT_MOTION_FREQ = 50; // Hz (50 samples/sec)
 const DEFAULT_GPS_INTERVAL_MS = 1000; // 1 Hz
